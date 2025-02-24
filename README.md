@@ -1,4 +1,4 @@
-# PRODIGY_WD_03
+# PRODIGY-INFOTECH3
 # TIC-TAC-TOE WEB APPLICATION
 
 This is a simple Tic Tac Toe game implemented as a web application using HTML, CSS, and JavaScript.
