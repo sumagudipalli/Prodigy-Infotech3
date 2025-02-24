@@ -1,3 +1,4 @@
+
 # PRODIGY-INFOTECH3
 # TIC-TAC-TOE WEB APPLICATION
 
@@ -19,7 +20,6 @@ This is a simple Tic Tac Toe game implemented as a web application using HTML, C
 * Objective: Achieve three marks in a row (horizontally, vertically, or diagonally) before your opponent does.
 * Turns: Players take turns marking an empty cell.
 * Winning: The game announces the winner or declares a draw when the board fills up without a winner.
-
 ## link of the project:
 link : https://github.com/sumagudipalli/Prodigy-Infotech3
 
