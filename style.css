@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#811457;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.cell.x {
+    color: blue;
+    font-weight: bold;
+    background-color: #ADD8E6; /* Light Blue for X */
+}
+
+.cell.o {
+    color: red;
+    font-weight: bold;
+    background-color: #FFCCCB; /* Light Red for O */
+}
+
+.cell:hover {
+    background-color: lightgray;
+}
+
+#restart {
+    background-color: #4CAF50;
+}
+
+#restart:hover {
+    background-color: #45a049;
+}
+
+#toggle-ai {
+    background-color: #2196F3;
+}
+
+#toggle-ai:hover {
+    background-color: #1976D2;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
